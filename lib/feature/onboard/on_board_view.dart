@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:vanilla_provider_application/feature/onboard/on_board_model.dart';
 import 'package:vanilla_provider_application/feature/onboard/tab_indicator.dart';
-import 'package:vanilla_provider_application/product/padding/page_padding.dart';
 import 'package:vanilla_provider_application/product/widgets/on_board_card.dart';
 
 part './module/start_fab_button.dart';
@@ -57,7 +56,7 @@ class _OnBoardViewState extends State<OnBoardView> {
     return Scaffold(
       appBar: _appBar(),
       body: Padding(
-        padding: const PagePadding.all(),
+        padding: const EdgeInsets.all(30),
         child: Column(
           children: [
             Expanded(
