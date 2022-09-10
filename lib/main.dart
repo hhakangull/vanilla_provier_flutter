@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:vanilla_provider_application/feature/onboard/on_board_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         // indicatorColor: const Color.fromRGBO(11, 23, 81, 1),
         // selectedRowColor: const Color.fromRGBO(11, 23, 81, 1),
       ),
-      home: const OnBoardView(),
+      home: const Scaffold(),
     );
   }
 }
